@@ -1,16 +1,93 @@
-# firebase_notification
+# 🔔 Firebase Push Notifications in Flutter
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter)
+![Firebase](https://img.shields.io/badge/Firebase-FCM-orange?logo=firebase)
+![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart)
+![Status](https://img.shields.io/badge/Project-Active-success)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Overview
 
-A few resources to get you started if this is your first Flutter project:
+This project demonstrates how to integrate **Firebase Cloud Messaging (FCM)** in Flutter applications to receive push notifications in different app states.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+It covers notification handling when the app is:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Foreground
+- Background
+- Terminated
+
+---
+
+## 🚀 Features
+
+- 🔔 Firebase Cloud Messaging (FCM)
+- 📱 Foreground Notifications
+- 🌙 Background Notifications
+- 🚀 Terminated State Notifications
+- 🎯 Notification Click Handling
+- 📄 Notification Payload Data
+- 🔄 Navigation from Notifications
+- 🔐 Firebase Integration
+
+---
+
+## 🛠 Tech Stack
+
+- Flutter
+- Dart
+- Firebase Cloud Messaging (FCM)
+- Firebase Core
+- Flutter Local Notifications
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+ ├── services/
+ ├── screens/
+ ├── firebase/
+ ├── utils/
+ └── main.dart
+```
+
+---
+
+## 📸 Topics Covered
+
+✅ Firebase Setup
+
+✅ FCM Token Generation
+
+✅ Foreground Notifications
+
+✅ Background Notifications
+
+✅ Notification Click Events
+
+✅ Local Notifications
+
+✅ Data Payload Handling
+
+✅ Deep Linking from Notifications
+
+---
+
+## 🎯 Learning Objectives
+
+- Understand Firebase Cloud Messaging
+- Implement Push Notifications
+- Handle Notification Navigation
+- Build Real-Time User Engagement Features
+
+---
+
+## ▶️ Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/rupeshsingh09/firebase_notification.git
+```
